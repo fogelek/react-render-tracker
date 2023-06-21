@@ -6,3 +6,15 @@
   text-align: right;
   min-width: 32px;
 }
+
+.app-page-commits .commit-data:nth-child(even) {
+  background-color: #eee;
+}
+
+.app-page-commits .commit-details.collapsed {
+  display: none;
+}
+
+.app-page-commits .tree-leaf-caption .button-expand {
+  display: none;
+}
